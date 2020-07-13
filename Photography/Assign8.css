@@ -1,0 +1,80 @@
+body{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300px;
+}
+#landing{
+    background: #fff;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: #fff;
+}
+
+#landing-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    top: 4px;
+    right: 320px;
+    color:black;
+    text-decoration: underline;    
+
+}
+
+#landing-image{
+    background-image: url(p1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20cm;
+    margin: 0;
+
+}
+
+#button{
+  background-color:sandybrown;
+  border:2px solid red;
+  border-radius: 15px;
+  color: green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+ 
+}
+
+#caption{
+    padding: 0.8rem;
+    text-align: center;
+}
+
+#header1{
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin-right:12px;
+    margin-bottom: 15px;
+}
+
+#images{
+    width: 900px;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer{
+    padding: 0.8rem;
+    text-align: center;
+    border-top: solid green;
+}
